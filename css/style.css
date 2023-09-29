@@ -147,9 +147,13 @@ button {
 /* footer */
 footer {
   background-color: #25a2c3;
-  color: white;
+  color: #c8e7f0;
 }
 
 footer > h2 {
   color: white;
+}
+
+footer > span {
+  color: #c8e7f0;
 }
