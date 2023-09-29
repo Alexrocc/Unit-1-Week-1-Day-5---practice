@@ -104,29 +104,29 @@ button:active {
   width: 63%;
 }
 
-/* mario section */
-.mario-section {
+/* ref section */
+.ref-section {
   background-color: #e22d0e;
   color: white;
   box-sizing: border-box;
   padding: 50px 0 40px 0;
 }
-.mario-section > h1 {
-  font-size: 1.8em;
+.ref-section > h1 {
+  font-size: 1.9em;
   line-height: 1;
   padding: 30px 5px 33px;
   color: white;
 }
 
-.mario-section > p {
+.ref-section > p {
   font-style: italic;
   font-size: 0.95em;
   padding: 6px 30px 30px 30px;
 }
-.mario-section > div > p {
+.ref-section > div > p {
   font-size: 0.8em;
 }
-.mario-section > div > h5 {
+.ref-section > div > h5 {
   font-size: 1.15em;
 }
 
@@ -154,11 +154,12 @@ button:active {
 .card-content > h3 {
   padding-bottom: 7px;
 }
+
 /* footer */
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
-  padding: 40px 0 60px;
+  padding: 40px 0 75px;
 }
 
 footer div {
