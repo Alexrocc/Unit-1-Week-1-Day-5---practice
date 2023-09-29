@@ -87,6 +87,7 @@ button {
 /* round image */
 #round-img {
   box-sizing: border-box;
+  padding: 5px 0;
 }
 
 #round-img img {
@@ -104,7 +105,7 @@ button {
 .mario-section > h1 {
   font-size: 1.8em;
   line-height: 1;
-  padding: 50px 5px 33px;
+  padding: 30px 5px 33px;
   color: white;
 }
 
@@ -129,7 +130,7 @@ button {
 .card {
   width: 385px;
   margin-inline: auto;
-  border: 2px solid #dee1e3;
+  border: 1.5px solid #dee1e3;
   border-radius: 7px;
   margin-bottom: 40px;
 }
@@ -148,12 +149,32 @@ button {
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
+  padding: 40px 0 60px;
+}
+
+footer div {
+  padding: 15px 0 30px;
 }
 
 footer > h2 {
   color: white;
+  font-size: 1.8em;
 }
 
-footer > span {
+footer div + p {
+  font-size: 0.8em;
+  padding-top: 30px;
+  border-top: 1px solid white;
+  display: inline-block;
+}
+
+footer > div > p:nth-child(-n + 2) {
+  text-decoration: underline;
+}
+footer a {
   color: #c8e7f0;
+}
+
+footer i {
+  letter-spacing: 4.5px;
 }
