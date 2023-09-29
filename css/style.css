@@ -122,7 +122,34 @@ button {
 
 /* cards section */
 
+.card-section {
+  padding: 60px 0 40px;
+}
+
+.card {
+  width: 385px;
+  margin-inline: auto;
+  border: 2px solid #dee1e3;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 11px 28px 40px;
+}
+.card-content > h3 {
+  padding-bottom: 7px;
+}
 /* footer */
 footer {
-  background-color: #c8e7f0;
+  background-color: #25a2c3;
+  color: white;
+}
+
+footer > h2 {
+  color: white;
 }
