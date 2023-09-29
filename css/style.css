@@ -1,6 +1,6 @@
 /* General */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500@400&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
@@ -67,7 +67,7 @@ button {
 
 /* pc img section */
 .pc-img-section {
-  padding-top: 30px;
+  padding: 30px 0 45px;
 }
 
 /* text blocks */
@@ -95,6 +95,32 @@ button {
 }
 
 /* mario section */
+.mario-section {
+  background-color: #e22d0e;
+  color: white;
+  box-sizing: border-box;
+  padding: 50px 0 40px 0;
+}
+.mario-section > h1 {
+  font-size: 1.8em;
+  line-height: 1;
+  padding: 50px 5px 33px;
+  color: white;
+}
+
+.mario-section > p {
+  font-style: italic;
+  font-size: 0.95em;
+  padding: 6px 30px 30px 30px;
+}
+.mario-section > div > p {
+  font-size: 0.8em;
+}
+.mario-section > div > h5 {
+  font-size: 1.15em;
+}
+
+/* cards section */
 
 /* footer */
 footer {
